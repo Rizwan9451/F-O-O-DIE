@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F-O-O-Die</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Itim&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background-color: rgb(82, 71, 46); */
+      background-image: linear-gradient(to right, rgb(241, 142, 117), rgb(141, 145, 239));
+    }
+
+    header {
+      background-color: lightgray;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .head {
+      display: flex;
+      background-image: linear-gradient(to right, #d1d2d4, #b1b3b5);
+      height: 10em;
+    }
+
+    #h1 {
+      color: rgb(20, 30, 27);
+      font-size: 5vw;
+      font-family: 'Itim', cursive;
+      margin-top: 35px;
+      padding-left: 280px;
+      text-shadow: 1px 2px darkred;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+      text-align: center;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+      padding: 10px;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .card {
+      border-radius: 50px;
+      background-color: #a19f9f;
+      padding: 10px;
+    }
+
+    .button:hover {
+      background-color: #b4b0b0;
+
+    }
+
+    .button {
+      border-radius: 20px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>F-O-O-Die</h2>
+      <ul>
+        <li><a href="/index.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="info.html"><i class="fas fa-address-card"></i>Info</a></li>
+        <li><a href="#"><i class="fas fa-project-diagram"></i>Guide</a></li>
+        <li><a href="contact/contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+      </ul>
+      <div class="social_media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="main_content">
+      <div class="about-section">
+        <h1>Guide</h1>
+        <p>Wellness is the complete integration of body, mind, and spirit the realization</p>
+        <p>that everything we do, think, feel, and believe has an effect on our state of well-being.</p>
+      </div><br>
+      <br><br><br>
+      <h2 style="text-align:center">Our Plans</h2>
+      <br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <center><img src="/guideimg/cu-modified.png" alt="Jane" style="width:80%"></center>
+            <div class="container">
+              <h2>Cuisines</h2>
+              <p class="title">Indian, Chinese, Italian</p>
+              <p>we offer Cuisines at best price</p>
+              <p>6000/month</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <center><img src="/guideimg/desert-modified.png" alt="Mike" style="width:80%"></center>
+            <div class="container">
+              <h2>Desert</h2>
+              <p class="title">Pastry, Sweets, pancake</p>
+              <p>we offer Desert at best price</p>
+              <p>4000/month</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <center> <img src="/guideimg/fast-modified.png" alt="John" style="width:80%"></center>
+            <div class="container">
+              <h2>Fast Food</h2>
+              <p class="title">Indian, Chinese, Italian</p>
+              <p>we offer Fast Food at best price</p>
+              <p>3500/month</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+</body>
+
+</html>
